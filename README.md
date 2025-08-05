@@ -1,17 +1,49 @@
-# amtnew
+# Orect
 
-A new Flutter project.
+**Orect** is a modern, cross-platform Point of Sale (POS) application built using **Flutter** and powered by **Supabase**. It supports secure user authentication, real-time database interactions, and complete CRUD operations for essential POS entities — including categories, subcategories, items, item options, and orders.
 
-## Getting Started
+Designed with scalability and ease of use in mind, Orect works seamlessly across mobile, tablet, and desktop platforms.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Cross-Platform Support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Built with **Flutter**, Orect offers native performance on:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# orect
+- Desktop (Windows, macOS, Linux)
+- Mobile (Android, iOS)
+- Web (via Flutter Web)
+
+---
+
+## Features
+
+**Authentication**
+    - Email/password login via **Supabase Auth**
+    - Session persistence
+    - Secure access control for database actions
+
+- **Category & Subcategory Management**
+    - Organize items in hierarchical groups
+
+- **Items & Options**
+    - CRUD for items and custom item options
+    - Flexible pricing and configuration
+
+- **Orders**
+    - Real-time order creation, updates, and viewing
+
+- **Direct Supabase DB Integration**
+    - No backend middleware — the app communicates securely and directly with Supabase’s PostgreSQL database
+
+---
+
+## Tech Stack
+
+| Layer        | Tech               |
+|--------------|--------------------|
+| **UI**       | Flutter + UI Framework (e.g., [FlutterFlow](https://flutterflow.io/), [Material 3](https://m3.material.io/)) |
+| **Backend**  | Supabase (Auth + DB + Realtime) |
+| **Database** | Supabase PostgreSQL |
+| **Auth**     | Supabase Auth |
+
