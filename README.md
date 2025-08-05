@@ -48,7 +48,7 @@ Built with **Flutter**, Orect offers native performance on:
 | **Auth**     | Supabase Auth |
 
 
-Here’s a quick look at the UI:
+## Here’s a quick look at the UI:
 <img src="./assets/screenshots/Simulator Screenshot - iPhone 16 - 2025-08-05 at 20.30.09.png" alt="Orect UI Screenshot" height="400"/>
 <img src="./assets/screenshots/Simulator Screenshot - iPhone 16 - 2025-08-05 at 20.30.29.png" alt="Orect UI Screenshot" height="400"/>
 <img src="./assets/screenshots/Simulator Screenshot - iPhone 16 - 2025-08-05 at 20.30.38.png" alt="Orect UI Screenshot" height="400"/>
