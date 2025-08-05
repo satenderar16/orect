@@ -1,0 +1,3 @@
+
+
+enum EmailType { personal, business }

@@ -1,0 +1,53 @@
+name: amtnew
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  shared_preferences: ^2.5.3
+  flutter_dotenv: ^5.2.1 # to achieve securing for sensitive variable and keys:
+  supabase_flutter: ^2.9.0 # using for connecting it with supabase projects
+  connectivity_plus: ^6.1.4 # getting the connection and also ping for real connection:
+  universal_html: ^2.2.4 # used in getting no connection on web: not useful gonna remove sooner in updating version
+  google_fonts: ^6.2.1 # used for the custom font in theme:
+  go_router: ^15.1.3 # for routing
+  flutter_riverpod: ^2.6.1 # for state management
+#  http: ^1.4.0
+#  lottie: ^3.3.1
+  flutter_staggered_grid_view: ^0.7.0 # for generating ui for responsive screen via grid view:
+  decimal: ^3.2.4 # for pricing and unit values:
+  flutter_staggered_animations: ^1.1.1
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  flutter_image_compress: ^2.4.0
+  flutter_local_notifications: ^19.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - .env
+    - assets/
